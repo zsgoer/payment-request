@@ -90,5 +90,5 @@ operation::create-payment-cancel[snippets='request-fields,curl-request,http-requ
 
 [/api/paymentcancel] url을 사용하여 `Get` 요청을 사용해서 기등록된 요청을 조회할 수 있다.
 
-operation::get-payment[snippets='request-fields,curl-request,http-response,links']
+operation::get-payment[snippets='curl-request,http-response,links']
 
