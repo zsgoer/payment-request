@@ -1,6 +1,8 @@
 # payment-request
 결제시스템
 
+- API 설계문서는 좌측링크를 참고 부탁드립니다. (https://zsgoer.github.io/index.html) 
+
 
 A. 사용 개발 프레임워크 : Springboot
 - Spring Web
@@ -20,7 +22,7 @@ C. 문제해결 전략
 - 암복호화 방식은 KISA의 SEED 방식의 CBC를 참조하여 구현하였습니다.
 - 기본적으로 @Valid 어노테이션과 PaymentRequestValidator, PaymentCancelValidator 클래스를 구현하여 명세서에 있는 제약조건을 맞추었습니다.
 - 선택문제의 TESTCASE는 TestCaseModule Class를 구현하여 단위테스트를 진행했습니다.
-- API 설계문서는 좌측링크를 참고 부탁드립니다. (https://zsgoer.github.io/index.html) 
+
 
 D. 빌드 및 실행 방법
 해당 프로젝트는 maven 기반으로 생성이 되었습니다. 메이븐 기반 IDE에서 IMPORT 하여 실행하거나, 아래와 같은 절차로 빌드를 진행하시면 됩니다.
