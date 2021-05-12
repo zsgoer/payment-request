@@ -15,7 +15,7 @@ public class IndexController {
     @GetMapping("/api")
     public RepresentationModel<?> index() {
         var index = new RepresentationModel<>();
-        index.add(linkTo(PaymentRequestController.class).withRel("events"));
+        index.add(linkTo(PaymentRequestController.class).withRel("paymentsearch"));
         return index;
     }
 }
